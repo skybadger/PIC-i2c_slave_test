@@ -1,0 +1,42 @@
+[PROJECT]
+Target=i2c_slave_test.hex
+Development_Mode=2
+Processor=0x887F
+Processor_Text=PIC16F887
+ToolSuite=CCS
+CCSVersion=5.021
+Compiler=PCM
+
+[Directories]
+Include=Z:\software\PIC\PIC_encoder_disp\;Z:\software\PIC\PCF8583RTC driver\;Z:\software\PIC\include\;C:\Program Files (x86)\PICC\Drivers\;C:\Program Files (x86)\PICC\Devices\
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=i2c_slave_test.c
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[i2c_slave_test.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=i2c_slave_test.c
+
+[Windows]
+0=0000 I2C_SL~1.C 0 0 796 451 3 0
+
+[Opened Files]
+1=i2c_slave_test.c
+2=i2c_slave_test.h
+3=
+[Units]
+Count=1
+1=i2c_slave_test (main)
